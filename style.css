@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 1vw;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: url("img/pexels-jiarong-deng-1034662.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.topContainer {
+  height: 37vh;
+  padding: 3rem;
+}
+
+.headerContainer {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  column-gap: 4rem;
+  /* column-gap: 1rem; */
+}
+
+.profileCont {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  gap: 1.5rem;
+  background-color: #ffffff4d;
+  border-radius: 500px;
+  border: 2px solid #fff;
+  padding: 0 6rem 0 0;
+}
+.otherProfileImg {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  gap: 9rem;
+}
+
+.profileImg img {
+  width: 13rem;
+  height: 13rem;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.closeIcon {
+  font-size: 9rem;
+}
+
+.author {
+  display: flex;
+}
+
+.authorName {
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.author p {
+  font-size: 5rem;
+  color: #fff;
+  /* font-weight: 700; */
+}
+.fans {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  stroke: #fff;
+  /* font-weight: 700; */
+}
+.userLogo {
+  height: 4.5rem;
+}
+
+.fans span {
+  font-size: 4rem;
+  letter-spacing: 1px;
+}
+
+.profileImgs {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.userImgs {
+  height: 13rem;
+  width: 13rem;
+  border-radius: 50%;
+  margin-right: -7.6rem;
+  border: 2px solid white;
+}
+
+.live {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  padding: 3rem 0 0 0;
+}
+.live span {
+  font-size: 5rem;
+  color: #fff;
+}
+
+.liveCont {
+  font-size: 5rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.coinCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+.coinCont span {
+  font-size: 6rem;
+  color: #fff;
+}
+
+.coinCont img {
+  height: 11rem;
+  width: 11rem;
+}
+.textLive {
+  color: #fff;
+  padding: 1rem;
+  font-size: 4rem;
+  font-weight: 500;
+  background-color: #f22a2a;
+}
+
+.liveCmntSection {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  padding: 0 0 0 4rem;
+}
+
+.comments {
+  height: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  /* padding: 0 0 0 2rem; */
+}
+
+.iconsLive {
+  height: 20px;
+}
+
+.comTxt {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff4d;
+  border-radius: 500px;
+  padding: 3rem 0 3rem 2rem;
+}
+
+.ComTxtlg {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff4d;
+  border-radius: 500px;
+  padding: 4rem 0 4rem 2rem;
+  position: relative;
+  gap: 1rem;
+}
+
+.view {
+  position: absolute;
+  right: 0;
+  margin-right: 4rem;
+  font-size: 700;
+  color: blue;
+}
+
+.ComTxtlg p {
+  font-size: 4.3rem;
+  color: #fff;
+}
+
+.comTxt p {
+  font-size: 4.5rem;
+  color: #ffffff;
+}
+
+.comTxt p span {
+  font-size: 5rem;
+  padding: 2rem;
+}
+.comTxtIcon {
+  stroke: #ffffff;
+  height: 21px;
+}
+
+.commentcontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.emoji {
+  height: 20px;
+  margin-top: 12px;
+}
+
+.iconsLive {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3.5rem;
+  height: auto;
+}
+
+.liveIconsLogo1 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #ffffff4d;
+}
+
+.userLiveLogo {
+  height: 8rem;
+  stroke: #fff;
+}
+.liveIconsLogo1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.last {
+  font-size: 4rem;
+  position: absolute;
+  height: 22px;
+  width: 22px;
+  text-align: center;
+  border: 1px solid #fff;
+  top: 0;
+  color: #fff;
+  background-color: #f22a2a;
+  border-radius: 50%;
+  margin-top: -3.5rem;
+}
+.cmtEmojiSec {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.cmtEmojiSec p {
+  padding: 3rem 0 0 0;
+  font-size: 6rem;
+}
+
+.outerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f22a2a;
+  padding: 3rem;
+}
+
+.outerContainer {
+  background-color: #fff;
+  border-radius: 500px;
+  width: 100%;
+  height: auto;
+  padding: 0 2rem;
+}
+
+.outerContainer input {
+  padding: 4.5rem 3rem;
+  border-radius: 500px;
+  font-size: 4rem;
+  width: 90%;
+  outline: none;
+  border: none;
+}
+.outerContainer p {
+  font-size: 4rem;
+}
+
+.innercontainer {
+  padding: 0 0 4rem 0;
+}
+.second {
+  padding: 0 4rem;
+}
